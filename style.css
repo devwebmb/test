@@ -79,13 +79,6 @@ button.button-carousel {
 .box-description-img {
   background: var(--light);
 }
-/* @media screen and (min-width: 992px) {
-  .box-img {
-    background-image: url("../images/woman.png");
-    background-position: center;
-    background-size: cover;
-  }
-} */
 
 .box-img {
  max-height: 650px;

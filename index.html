@@ -21,6 +21,7 @@
   <script src="./public/assets/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
   <!-- {% block body %}{% endblock %} -->
 
@@ -355,13 +356,15 @@
   <!--SECTION BOX-->
   <section class="section-box ">
     <div class="container-fluid">
-      <div class="d-flex row d-lg-column justify-content-center">
-        <!--box image mobile-->
-        <div class="d-lg-none px-0 ">
-          <img src="./public/assets/images/woman.png" alt="">
+      <div class="d-flex flex-row-reverse d-lg-column justify-content-center">
+
+        <!--box image -->
+        <div class="col-12 col-lg-6 px-0 box-img ">
+          <img class="img-fluid" src="./public/assets/images/woman.png" alt="">
         </div>
+
         <!--Box description-->
-        <div class="col-12 col-lg-6 d-flex flex-column box-description">
+        <div class="col-12 col-lg-6 d-flex  flex-column box-description ">
           <div class="mx-lg-auto my-5 col-lg-6  box-description-content ">
             <h2 class="mb-5 col-8 col-lg-12 mx-auto text-center text-lg-start fw-bolder">Une box à mon image</h2>
             <p class="mb-5 col-10 col-lg-12 mx-auto fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -378,10 +381,6 @@
                   box</button></a>
             </div>
           </div>
-        </div>
-        <!--box image Desktop-->
-        <div class="col-12 col-lg-6 px-0 box-img  d-none d-lg-block">
-          <img class="img-fluid" src="./public/assets/images/woman.png" alt="">
         </div>
 
       </div>
@@ -694,4 +693,5 @@
   </footer>
 
 </body>
+
 </html>
