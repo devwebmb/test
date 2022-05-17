@@ -3,6 +3,7 @@
 @import url("./_products-list.css");
 @import url("./_popup-login.css"); */
 
+/*banner**********/
 .banner {
   font-family: "Publico";
 }
@@ -23,6 +24,7 @@
   height: 100px;
 }
 
+/***navbar***********/
 .navbar {
   color: black !important;
   font-family: "Publico";
@@ -50,6 +52,7 @@
   opacity: 0.6;
 }
 
+/**carousel***********/
 #homepage-carousel {
   font-family: "Architects Daughter";
 }
@@ -68,6 +71,7 @@ button.button-carousel {
   padding: 0.5em;
 }
 
+/*******section box ***********/
 .section-box {
   font-family: "Architects Daughter";
   background: var(--primary);
@@ -75,12 +79,22 @@ button.button-carousel {
 .box-description-img {
   background: var(--light);
 }
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .box-img {
     background-image: url("../images/woman.png");
     background-position: center;
     background-size: cover;
   }
+} */
+
+.box-img {
+ max-height: 650px;
+}
+
+.box-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 992px) {
   .box-description-img {
@@ -88,6 +102,7 @@ button.button-carousel {
   }
 }
 
+/***********section atouts****************/
 .section-atouts {
   background-color: var(--blue);
   font-family: "Publico-regular";
@@ -98,6 +113,7 @@ button.button-carousel {
   }
 }
 
+/*******products section**********/
 .products-section {
   font-family: "Montserrat";
 }
@@ -114,6 +130,7 @@ button.button-carousel {
   opacity: 1;
 }
 
+/*************section social***************/
 .section-socialNetwork {
   font-family: "Publico";
   background: var(--blue);
@@ -123,6 +140,7 @@ button.button-carousel {
   font-family: "Montserrat";
 }
 
+/*************footer************/
 .footer-form {
   max-width: 360px;
 }
@@ -131,6 +149,7 @@ button.button-carousel {
   width: 24px;
 }
 
+/*******popup login************/
 .login-popup {
   font-family: "publico";
 }
@@ -143,6 +162,7 @@ button.button-carousel {
   color: var(--primary);
 }
 
+/***************products list page**************/
 .products-list-section {
   font-family: "Publico-regular";
 }
@@ -155,6 +175,7 @@ button.button-carousel {
   border-color: var(--black);
 }
 
+/*********variables****************/
 :root {
   --primary: #e3c78f;
   --secondary: #d9cec5;
