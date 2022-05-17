@@ -1,4 +1,280 @@
-@import url("./_variables.css");
+/* @import url("./_variables.css");
 @import url("./_home-page.css");
 @import url("./_products-list.css");
-@import url("./_popup-login.css");
+@import url("./_popup-login.css"); */
+
+/*BANNER*/
+
+.banner {
+  font-family: "Publico";
+}
+
+/*HEADER TOP */
+
+/* desktop version */
+.header-desktop {
+  height: 160px;
+}
+.card-badge-desktop {
+  font-size: 0.5rem;
+}
+.card-badge-mobile {
+  font-size: 0.75rem;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*mobile version */
+.mobile-header-top {
+  height: 100px;
+}
+
+/******** NAVIGATION MENU *********/
+.navbar {
+  color: black !important;
+  font-family: "Publico";
+  font-size: 20px;
+}
+.nav-item {
+  padding: 0.5rem;
+}
+.nav-link {
+  color: black !important;
+  opacity: inherit !important;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  color: var(--primary) !important;
+}
+.dropdown-item:hover {
+  background: none;
+}
+.separation {
+  color: var(--secondary) !important;
+}
+.separation-mobile-menu {
+  color: var(--black);
+  opacity: 0.6;
+}
+
+/* CAROUSEL */
+
+#homepage-carousel {
+  font-family: "Architects Daughter";
+}
+#homepage-carousel button {
+  transition: 0.5s;
+}
+.carousel-img {
+  height: 500px;
+}
+.carousel-img img {
+  object-fit: contain;
+}
+button.button-carousel {
+  background-color: var(--secondary) !important;
+  border: none !important;
+  padding: 0.5em;
+}
+
+/******** SECTION BOX *********/
+
+.section-box {
+  font-family: "Architects Daughter";
+  background: var(--primary);
+}
+.box-description-img {
+  background: var(--light);
+}
+@media screen and (min-width: 992px) {
+  .box-img {
+    background-image: url("../images/woman.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px) {
+  .box-description-img {
+    min-height: 400px;
+  }
+}
+
+/******** SECTION ATOUTS *********/
+.section-atouts {
+  background-color: var(--blue);
+  /* height: auto; */
+  font-family: "Publico-regular";
+}
+@media screen and (max-width: 992px) {
+  .atout-white-bg {
+    background-color: var(--light);
+  }
+}
+
+/************SECTION PRODUCTS**************/
+.products-section {
+  font-family: "Montserrat";
+}
+
+.heart-icon {
+  width: 10%;
+  right: 0;
+}
+.heart-icon-full {
+  opacity: 0;
+  transition: 0.5s;
+}
+.heart-icon-full:hover {
+  opacity: 1;
+}
+
+/**********SOCIAL NETWORK*********/
+
+.section-socialNetwork {
+  font-family: "Publico";
+  background: var(--blue);
+}
+
+/*****FOOTER**********/
+
+.footer-style {
+  font-family: "Montserrat";
+}
+
+/* @media screen and (min-width: 1200px) {
+  .footer-form {
+    max-width: 360px;
+  }
+} */
+.footer-form {
+  max-width: 360px;
+}
+.icon-social-footer {
+  height: 24px;
+  width: 24px;
+}
+
+.login-popup {
+    font-family: "publico";
+}
+
+.login-popup form {
+    background: var(--blue);
+}
+.bi-eye-slash, .bi-eye{
+    color: var(--primary);
+}
+
+/************SECTION PRODUCTS LIST**************/
+.products-list-section {
+  font-family: "Publico-regular";
+}
+
+.form-select {
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border-color: var(--black);
+}
+
+/*
+COLOR THEME :
+primary => #E3C78F
+secondary => #D9CEC5
+yellow = > #FFEB9B
+light => white
+blue => #EBF8F9
+black => black
+*/
+
+/****** COLORS ********/
+
+:root {
+  --primary: #e3c78f;
+  --secondary: #d9cec5;
+  --yellow: #ffeb9b;
+  --light: white;
+  --blue: #ebf8f9;
+  --black: black;
+  --login-background: #839298;
+}
+
+/******** FONTS *********/
+@font-face {
+  font-family: "Publico";
+  src: url("../fonts/PublicoHeadlineWebBoldRegular/PublicoHeadlineWebBoldRegular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publico-regular";
+  src: url("../fonts/Publico-Regular/Publico-regular/Publico-regular.ttf");
+}
+
+@font-face {
+  font-family: "Palatino";
+  src: url("../fonts/PalatinoFontFree/Palatino.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fuggles";
+  src: url("../fonts/Fuggles-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******** MAIN *********/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:focus,
+.btn:active,
+.btn:target {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-dark {
+  background-color: var(--secondary) !important;
+}
+.btn-outline-primary {
+  color: var(--black) !important;
+  background-color: var(--primary) !important;
+  transition: 0.5s;
+  /* border-color: var(--primary) !important; */
+}
+
+.btn-outline-primary:hover {
+  color: var(--black) !important;
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--black) !important;
+}
+
+.bg-primary {
+  font-family: "Montserrat";
+  background-color: var(--primary) !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+
