@@ -105,7 +105,6 @@ button.button-carousel {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5rem;
   }
   .box-description-btn {
     height: 20%;
@@ -115,13 +114,11 @@ button.button-carousel {
     justify-content: center;
   }
   .box-description-btn a .btn {
-    font-size: 1.5rem;
   }
   .box-description-p {
     height: 20%;
     margin-bottom: 0;
     padding: auto auto;
-    font-size: 1.5rem;
   }
   .box-description-img {
     height: 40%;
