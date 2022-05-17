@@ -79,11 +79,9 @@ button.button-carousel {
 .box-description-img {
   background: var(--light);
 }
-
 .box-img {
  max-height: 650px;
 }
-
 .box-img img {
   object-fit: cover;
   height: 100%;
