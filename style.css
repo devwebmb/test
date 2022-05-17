@@ -1,17 +1,13 @@
-/* @import url("./_variables.css");
+@import url("./_variables.css");
 @import url("./_home-page.css");
 @import url("./_products-list.css");
-@import url("./_popup-login.css"); */
+@import url("./_popup-login.css");
 
-/*BANNER*/
 
-.banner {
+/* .banner {
   font-family: "Publico";
 }
 
-/*HEADER TOP */
-
-/* desktop version */
 .header-desktop {
   height: 160px;
 }
@@ -24,12 +20,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/*mobile version */
 .mobile-header-top {
   height: 100px;
 }
 
-/******** NAVIGATION MENU *********/
 .navbar {
   color: black !important;
   font-family: "Publico";
@@ -57,7 +51,6 @@
   opacity: 0.6;
 }
 
-/* CAROUSEL */
 
 #homepage-carousel {
   font-family: "Architects Daughter";
@@ -77,7 +70,6 @@ button.button-carousel {
   padding: 0.5em;
 }
 
-/******** SECTION BOX *********/
 
 .section-box {
   font-family: "Architects Daughter";
@@ -99,10 +91,8 @@ button.button-carousel {
   }
 }
 
-/******** SECTION ATOUTS *********/
 .section-atouts {
   background-color: var(--blue);
-  /* height: auto; */
   font-family: "Publico-regular";
 }
 @media screen and (max-width: 992px) {
@@ -111,7 +101,6 @@ button.button-carousel {
   }
 }
 
-/************SECTION PRODUCTS**************/
 .products-section {
   font-family: "Montserrat";
 }
@@ -128,24 +117,17 @@ button.button-carousel {
   opacity: 1;
 }
 
-/**********SOCIAL NETWORK*********/
 
 .section-socialNetwork {
   font-family: "Publico";
   background: var(--blue);
 }
 
-/*****FOOTER**********/
 
 .footer-style {
   font-family: "Montserrat";
 }
 
-/* @media screen and (min-width: 1200px) {
-  .footer-form {
-    max-width: 360px;
-  }
-} */
 .footer-form {
   max-width: 360px;
 }
@@ -165,7 +147,6 @@ button.button-carousel {
     color: var(--primary);
 }
 
-/************SECTION PRODUCTS LIST**************/
 .products-list-section {
   font-family: "Publico-regular";
 }
@@ -178,17 +159,8 @@ button.button-carousel {
     border-color: var(--black);
 }
 
-/*
-COLOR THEME :
-primary => #E3C78F
-secondary => #D9CEC5
-yellow = > #FFEB9B
-light => white
-blue => #EBF8F9
-black => black
-*/
 
-/****** COLORS ********/
+
 
 :root {
   --primary: #e3c78f;
@@ -200,7 +172,6 @@ black => black
   --login-background: #839298;
 }
 
-/******** FONTS *********/
 @font-face {
   font-family: "Publico";
   src: url("../fonts/PublicoHeadlineWebBoldRegular/PublicoHeadlineWebBoldRegular.ttf")
@@ -227,7 +198,6 @@ black => black
   font-style: normal;
 }
 
-/******** MAIN *********/
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -250,7 +220,6 @@ body {
   color: var(--black) !important;
   background-color: var(--primary) !important;
   transition: 0.5s;
-  /* border-color: var(--primary) !important; */
 }
 
 .btn-outline-primary:hover {
@@ -277,4 +246,4 @@ h3 {
   font-size: 1.75rem;
 }
 
-
+ */
