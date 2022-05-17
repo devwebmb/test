@@ -1,0 +1,12 @@
+/************SECTION PRODUCTS LIST**************/
+.products-list-section {
+  font-family: "Publico-regular";
+}
+
+.form-select {
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border-color: var(--black);
+}

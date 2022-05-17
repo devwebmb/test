@@ -1,0 +1,10 @@
+.login-popup {
+    font-family: "publico";
+}
+
+.login-popup form {
+    background: var(--blue);
+}
+.bi-eye-slash, .bi-eye{
+    color: var(--primary);
+}

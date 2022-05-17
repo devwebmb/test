@@ -1,0 +1,98 @@
+/*
+COLOR THEME :
+primary => #E3C78F
+secondary => #D9CEC5
+yellow = > #FFEB9B
+light => white
+blue => #EBF8F9
+black => black
+*/
+
+/****** COLORS ********/
+
+:root {
+  --primary: #e3c78f;
+  --secondary: #d9cec5;
+  --yellow: #ffeb9b;
+  --light: white;
+  --blue: #ebf8f9;
+  --black: black;
+  --login-background: #839298;
+}
+
+/******** FONTS *********/
+@font-face {
+  font-family: "Publico";
+  src: url("../fonts/PublicoHeadlineWebBoldRegular/PublicoHeadlineWebBoldRegular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publico-regular";
+  src: url("../fonts/Publico-Regular/Publico-regular/Publico-regular.ttf");
+}
+
+@font-face {
+  font-family: "Palatino";
+  src: url("../fonts/PalatinoFontFree/Palatino.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fuggles";
+  src: url("../fonts/Fuggles-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******** MAIN *********/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:focus,
+.btn:active,
+.btn:target {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-dark {
+  background-color: var(--secondary) !important;
+}
+.btn-outline-primary {
+  color: var(--black) !important;
+  background-color: var(--primary) !important;
+  transition: 0.5s;
+  /* border-color: var(--primary) !important; */
+}
+
+.btn-outline-primary:hover {
+  color: var(--black) !important;
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--black) !important;
+}
+
+.bg-primary {
+  font-family: "Montserrat";
+  background-color: var(--primary) !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
