@@ -21,18 +21,52 @@
   <script src="./public/assets/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-
 <body>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-light">Light</button>
-  <button type="button" class="btn btn-dark">Dark</button>
+  <div class="container-fluid login-popup col-12 px-0 d-flex justify-content-center vh-100 align-items-center">
+    <form action="" class="col-12 col-xl-4 col-lg-6 col-md-8 p-5 position-relative">
+      <div class="position-absolute end-0 pe-4 ">
+        <a href=""><i class="bi bi-x-lg"></i></a>
+      </div>
+      <h4 class="fw-bolder pb-4 ">Mon compte</h4>
+      <div class="mb-3">
+        <input type="email" class="form-control fw-bold px-3 py-2" id="login-email" placeholder="Adresse mail">
+      </div>
+      <div class="mb-2 position-relative">
+        <input class="form-control fw-bold px-3 py-2" type="password" id="loginPasswordInput"
+          placeholder="Mot de passe">
+        <a class="position-absolute end-0 top-50 translate-middle" href="">
+          <i class="bi bi-eye-slash align-items-center d-flex " aria-hidden="true" id="passwordLoginEye"></i>
+        </a>
+      </div>
+      <div class="mb-4">
+        <a href="" class="text-decoration-underline">Mot de passe oublié</a>
+      </div>
+      <button type="submit" class="btn btn-outline-primary border-0 w-100 fw-bold mb-4 p-2 fs-4">Connexion</button>
+      <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold p-2 fs-4">Créer un compte</a>
+    </form>
+  </div>
 
-  <button type="button" class="btn btn-link">Link</button>
+  <script>
+    {
+      {
+        const passwordEye = document.getElementById("passwordLoginEye");
+        const passwordType = document.getElementById("loginPasswordInput");
+
+        passwordEye.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (passwordEye.classList.contains('bi-eye-slash')) {
+            passwordEye.classList.remove('bi-eye-slash')
+            passwordEye.classList.add('bi-eye')
+            passwordType.setAttribute('type', 'text')
+          } else {
+            passwordEye.classList.add('bi-eye-slash')
+            passwordEye.classList.remove('bi-eye')
+            passwordType.setAttribute('type', 'password')
+          }
+        })
+      }
+    }
+  </script>
 </body>
 
 </html>
