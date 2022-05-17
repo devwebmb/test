@@ -79,13 +79,9 @@ button.button-carousel {
 .box-description-img {
   background: var(--light);
 }
-.box-img {
- max-height: 650px;
-}
+
 .box-img img {
   object-fit: cover;
-  height: 100%;
-  width: 100%;
 }
 @media screen and (max-width: 992px) {
   .box-description-img {
