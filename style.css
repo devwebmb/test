@@ -76,16 +76,55 @@ button.button-carousel {
   font-family: "Architects Daughter";
   background: var(--primary);
 }
+.box-img-container {
+  height: 600px;
+}
+.box-description-container {
+  height: 600px;
+}
+.box-img-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .box-description-img {
   background: var(--light);
 }
 
-.box-img img {
-  object-fit: cover;
-}
 @media screen and (max-width: 992px) {
+  .box-img-container,
+  .box-description-container {
+    height: 800px;
+  }
+  .box-description-content {
+    height: 800px;
+  }
+  .box-description-h2 {
+    height: 20%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  .box-description-btn {
+    height: 20%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box-description-btn a .btn {
+    font-size: 1.5rem;
+  }
+  .box-description-p {
+    height: 20%;
+    margin-bottom: 0;
+    padding: auto auto;
+    font-size: 1.5rem;
+  }
   .box-description-img {
-    min-height: 400px;
+    height: 40%;
   }
 }
 
