@@ -34,7 +34,7 @@
         <!-- BANNER -->
         <div class="bg-primary">
             <div class="banner container-fluid d-flex flex.row justify-content-around align-items-center py-2">
-                <a class=" d-none justify-content-center d-lg-flex fs-bold" href=""><span>Get 15% OFF your first
+                <a class=" d-none justify-content-center d-lg-flex " href=""><span>Get 15% OFF your first
                         haul when
                         you spend £25
                         with code
@@ -371,18 +371,25 @@
 
     <!--SECTION BOX-->
     <section class="section-box ">
-        <div class="container-fluid">
-            <div class="d-flex row d-lg-column justify-content-center">
-                <!--box image mobile-->
-                <div class="d-lg-none px-0 ">
-                    <img src="./public/assets/images/woman.png" alt="">
+        <div class="d-flex flex-lg-row-reverse flex-column justify-content-center ">
+
+            <!--box image -->
+            <div class="box-img-container  container-fluid px-0  col-12 col-lg-6 ">
+                <div class="box-img-div px-0 h-100">
+                    <img class="h-100" src="./public/assets/images/woman.png" alt="">
                 </div>
-                <!--Box description-->
-                <div class="col-12 col-lg-6 d-flex flex-column box-description">
-                    <div class="mx-lg-auto my-5 col-lg-6  box-description-content ">
-                        <h2 class="mb-5 col-8 col-lg-12 mx-auto text-center text-lg-start fw-bolder">Une box à mon image
-                        </h2>
-                        <p class="mb-5 col-10 col-lg-12 mx-auto fw-bold">Lorem ipsum dolor sit amet, consectetur
+            </div>
+
+            <!--Box description-->
+            <div class="container-fluid col-12 col-lg-6 my-0 my-lg-auto   box-description-container">
+                <div class=" d-flex  flex-column box-description-div h-100">
+                    <div class="mx-lg-auto my-lg-5 col-lg-6  box-description-content  ">
+                        <h2
+                            class="mb-lg-5 col-6 col-lg-12 mx-auto text-center text-lg-start fw-bolder box-description-h2">
+                            Une box à
+                            mon image</h2>
+                        <p class="mb-lg-5 col-10 col-lg-12 mx-auto fw-bold box-description-p">Lorem ipsum dolor sit
+                            amet, consectetur
                             adipisicing elit.
                             Iure sunt voluptatem quidem alias
                             quaerat iste fugiat quae animi sit nesciunt!
@@ -391,18 +398,13 @@
                             class="box-description-img col-11 col-lg-12 mx-auto rounded d-flex justify-content-center align-items-center ">
                             <img class="rounded img-fluid" src="./public/assets/images/productBox.png" alt="" />
                         </div>
-                        <div class="text-center mt-5">
-                            <a href=""><button
-                                    class="btn btn-outline-primary border-dark border-2 box-description-btn px-5">Je
+                        <div class="text-center mt-lg-5 box-description-btn">
+                            <a href=""><button class="btn btn-outline-primary border-dark border-2  px-5">Je
                                     choisis ma
                                     box</button></a>
                         </div>
                     </div>
                 </div>
-                <!--box image Desktop-->
-                <div class="col-12 col-lg-6 px-0 box-img  d-none d-lg-block">
-                </div>
-
             </div>
         </div>
     </section>
