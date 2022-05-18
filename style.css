@@ -114,8 +114,6 @@ button.button-carousel {
     align-items: center;
     justify-content: center;
   }
-  .box-description-btn a .btn {
-  }
   .box-description-p {
     height: 20%;
     margin-bottom: 0;
@@ -186,12 +184,17 @@ button.button-carousel {
   color: var(--primary);
 }
 
+.login-popup-form input {
+  border-color: var(--secondary);
+}
+.login-popup-form input:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.25rem rgb(217, 206, 197, 50%);
+}
+
 /***************products list page**************/
 .products-list-section {
   font-family: "Publico-regular";
-}
-
-.form-select {
 }
 
 .form-select:focus {
@@ -212,7 +215,7 @@ button.button-carousel {
 
 @font-face {
   font-family: "Publico";
-  src: url("../fonts/PublicoHeadlineWebBoldRegular/PublicoHeadlineWebBoldRegular.ttf")
+  src: url("./public/assets/fonts/PublicoHeadlineWebBoldRegular/PublicoHeadlineWebBoldRegular.ttf")
     format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -220,18 +223,18 @@ button.button-carousel {
 
 @font-face {
   font-family: "Publico-regular";
-  src: url("../fonts/Publico-Regular/Publico-regular/Publico-regular.ttf");
+  src: url("./public/assets/fonts/Publico-Regular/Publico-regular/Publico-regular.ttf");
 }
 
 @font-face {
   font-family: "Palatino";
-  src: url("../fonts/PalatinoFontFree/Palatino.ttf");
+  src: url("./public/assets/fonts/PalatinoFontFree/Palatino.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Fuggles";
-  src: url("../fonts/Fuggles-Regular.ttf");
+  src: url("./public/assets/fonts/Fuggles-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
@@ -282,4 +285,50 @@ img {
 
 h3 {
   font-size: 1.75rem;
+}
+
+/**********register***************/
+.register-form h4,
+.register-form button {
+  font-family: "Publico";
+}
+.register-form input {
+  font-family: "Montserrat";
+}
+.register-form input {
+  border-color: var(--secondary);
+}
+.register-form input:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.25rem rgb(217, 206, 197, 25%);
+}
+.register-form .checkbox-input:focus {
+  box-shadow: none;
+}
+.register-form .checkbox-input:checked {
+  background-color: var(--light);
+  border-color: var(--secondary);
+  background-image: url("./public/assets/icones/check.svg"
+  );
+}
+
+/*********login-mobile-form***********/
+.login-mobile-form h4,.login-mobile-form .btn {
+font-family: "Publico";
+}
+.login-mobile-form input {
+  border-color: var(--secondary);
+}
+.login-mobile-form input:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.25rem rgb(217, 206, 197, 25%);
+}
+.login-mobile-form .checkbox-input:focus {
+  box-shadow: none;
+}
+.login-mobile-form .checkbox-input:checked {
+  background-color: var(--light);
+  border-color: var(--secondary);
+  background-image: url("./public/assets/icones/check.svg"
+  );
 }
