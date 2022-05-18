@@ -40,7 +40,7 @@
 }
 .nav-link:hover,
 .dropdown-item:hover {
-  color: var(--primary) !important;
+  color: var(--primary);
 }
 .dropdown-item:hover {
   background: none;
@@ -308,13 +308,13 @@ h3 {
 .register-form .checkbox-input:checked {
   background-color: var(--light);
   border-color: var(--secondary);
-  background-image: url("./public/assets/icones/check.svg"
-  );
+  background-image: url("./public/assets/icones/check.svg");
 }
 
 /*********login-mobile-form***********/
-.login-mobile-form h4,.login-mobile-form .btn {
-font-family: "Publico";
+.login-mobile-form h4,
+.login-mobile-form .btn {
+  font-family: "Publico";
 }
 .login-mobile-form input {
   border-color: var(--secondary);
@@ -329,6 +329,21 @@ font-family: "Publico";
 .login-mobile-form .checkbox-input:checked {
   background-color: var(--light);
   border-color: var(--secondary);
-  background-image: url("./public/assets/icones/check.svg"
-  );
+  background-image: url("./public/assets/icones/check.svg");
 }
+
+/***************section mon compte******************/
+.mon-compte {
+  font-family: "Publico";
+}
+.container-ul-mon-compte ul li:hover {
+  background-color: var(--primary);
+}
+.border-dashed {
+  border-bottom: dashed 1px var(--secondary);
+}
+.mon-compte table,
+.mon-compte .boutique-btn {
+  font-family: "Montserrat";
+}
+

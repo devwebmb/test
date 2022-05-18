@@ -1,0 +1,187 @@
+<body>
+
+    <section class="mon-compte ">
+
+        <div class="container-fluid col-lg-8 col-10 row m-auto">
+
+            <nav class="navbar navbar-expand-xl navbar-light bg-light col-lg-4 d-none d-lg-block py-0">
+                <div class="container-fluid container-ul-mon-compte ">
+                    <ul class="navbar-nav  flex-column col-12">
+                        <li class="nav-item border">
+                            <a class="nav-link active" href="">Mes commandes</a>
+                        </li>
+                        <li class="nav-item border border-top-0">
+                            <a class="nav-link active" href="">Mes coordonnées</a>
+                        </li>
+                        <li class="nav-item border border-top-0">
+                            <a class="nav-link active" href="">Mes abonnements</a>
+                        </li>
+                        <li class="nav-item border border-top-0">
+                            <a class="nav-link active" href="">Mes points de fidélité</a>
+                        </li>
+                        <li class="nav-item border border-top-0">
+                            <a class="nav-link active" href="">Se déconnecter</a>
+                        </li>
+                    </ul>
+            </nav>
+
+            <!--Desktop version lg breakpoint-->
+            <div class="d-none d-lg-block col-lg-8">
+                <div class="container-fluid border col-12">
+                    <div class="border-dashed  mb-3 mt-3">
+                        <h4 class="fw-bold ">Mes commandes</h4>
+                    </div>
+                    <form action="" class="col-6 mx-auto mb-4 ms-0">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>filtrer par année</option>
+                            <option value="1">2022</option>
+                            <option value="2">2021</option>
+                            <option value="3">2020</option>
+                        </select>
+                    </form>
+                    <div>
+                        <table class="table border">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">No</th>
+                                    <th class="text-center" scope="col">Date</th>
+                                    <th class="text-center" scope="col">Status</th>
+                                    <th class="text-center" scope="col">Total</th>
+                                    <th class="text-center" scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center ">1</td>
+                                    <td class="text-center  ">16/03/2022</td>
+                                    <td class="text-center  w-25">En cours de validation</td>
+                                    <td class="text-center ">120 €</td>
+                                    <td class="text-center ">
+                                        <div class="">
+                                            <a href=""
+                                                class=" btn btn-outline-primary border-0 col-10 fw-bold commandes-table-voir">Voir</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center ">2</td>
+                                    <td class="text-center  ">16/03/2022</td>
+                                    <td class="text-center  w-25">En cours de préparation</td>
+                                    <td class="text-center ">120 €</td>
+                                    <td class="text-center ">
+                                        <div class="">
+                                            <a href=""
+                                                class=" btn btn-outline-primary border-0 col-10 fw-bold commandes-table-voir">Voir</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center ">3</td>
+                                    <td class="text-center ">16/03/2022</td>
+                                    <td class="text-center ">Commande livrée</td>
+                                    <td class="text-center ">120 €</td>
+                                    <td class="text-center s">
+                                        <div class="">
+                                            <a href=""
+                                                class=" btn btn-outline-primary border-0 col-10 fw-bold commandes-table-voir">Voir</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!--mobile -version lg breakpoint-->
+            <div class="d-lg-none mt-5">
+                <div class="col-lg-8 col-12">
+                    <div class="container-fluid col-12 border">
+                        <div class="border-dashed col-11 mx-auto mb-3 mt-3">
+                            <h4 class="fw-bold ">Mes commandes</h4>
+                        </div>
+                        <form action="" class="col-6 mx-auto mb-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>filtrer par année</option>
+                                <option value="1">2022</option>
+                                <option value="2">2021</option>
+                                <option value="3">2020</option>
+                            </select>
+                        </form>
+
+
+                        <div class="col-11 mx-auto">
+                            <table class="table  ">
+                                <tbody class=" border">
+                                    <tr class="col-12 ">
+                                        <th scope="row" class="text-center col-4 border-end py-3">No</th>
+                                        <td class="text-center col-8 py-3">1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-center col-4 border-end py-3">Date</th>
+                                        <td class="text-center col-8 py-3">16/03/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-center col-4 border-end py-3">Total</th>
+                                        <td class="text-center col-8 py-3" colspan="2">120 €</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-center col-4 border-end py-3">Status</th>
+                                        <td class="text-center col-8 py-3">en cours de livraison</td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row" class="text-center col-4 border-end py-3">Action</th>
+                                        <td class="text-center col-8 border-0
+                  ">
+                                            <div class="">
+                                                <a href=""
+                                                    class=" btn btn-outline-primary border-0 col-6 fw-bold">Voir</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <table class="table  ">
+                            <tbody class=" border">
+                                <tr class="col-12 ">
+                                    <th scope="row" class="text-center col-4 border-end py-3">No</th>
+                                    <td class="text-center col-8 py-3">1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center col-4 border-end py-3">Date</th>
+                                    <td class="text-center col-8 py-3">16/03/2022</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center col-4 border-end py-3">Total</th>
+                                    <td class="text-center col-8 py-3" colspan="2">120 €</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center col-4 border-end py-3">Status</th>
+                                    <td class="text-center col-8 py-3">en cours de livraison</td>
+                                </tr>
+                                <tr class="">
+                                    <th scope="row" class="text-center col-4 border-end py-3">Action</th>
+                                    <td class="text-center col-8 border-0
+                  ">
+                                        <div class="">
+                                            <a href="" class=" btn btn-outline-primary border-0 col-6 fw-bold">Voir</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-6 mx-auto mt-5">
+                        <a href="" class="boutique-btn">
+                            <button type="submit"
+                                class="btn btn-outline-primary border-0 w-100 fw-bold mb-4 p-2 fs-5">boutique</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</body>
