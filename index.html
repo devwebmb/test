@@ -28,7 +28,7 @@
 
   <header>
     <!-- BANNER -->
-    <div class="bg-primary">
+    <div class="bg-primary ">
       <div class="banner container-fluid d-flex flex.row justify-content-around align-items-center py-2">
         <a class=" d-none justify-content-center d-lg-flex " href=""><span>Get 15% OFF your first
             haul when
@@ -44,53 +44,60 @@
         </a>
       </div>
     </div>
+  </header>
+
+  <!--Sticky-top-->
+  <div id="xlStickyTop">
 
     <!-- HEADER TOP-->
-
     <!-- Desktop version -->
-    <div class="bg-light sticky-top d-none d-xl-block col-12">
-      <div class="container-fluid header-desktop  col-10 d-flex px-0">
+    <div class="bg-light   d-none d-xl-block col-12">
+      <div class="container-fluid header-desktop  col-10 d-flex px-0 ">
         <div class="h-100 d-flex align-items-center col-4">
           <a href="" class="i-email-desktop h-25">
-            <img class="h-100" src="./public/assets/icones/email.png"
+            <img class="h-100" src="./public/assets/svg/email.svg"
               alt="Icone représentant une enveloppe etle symbole arobase" />
           </a>
         </div>
         <div class="h-100 d-flex align-items-center col-4 justify-content-center">
           <img src="./public/assets/images/logo_main.png" alt="logo de l'entreprise" class="logo-desktop h-75" />
         </div>
-        <div class="d-flex h-100 col-4 justify-content-end ">
-          <div class="desktop-header-icons h-100 d-flex align-items-center">
-            <a class="h-25" href="">
-              <img class="h-100" src="./public/assets/icones/search.png" alt="Icone représentant une loupe" />
-            </a>
-          </div>
-          <div class="desktop-header-icons h-100 d-flex align-items-center">
-            <a href="" class="h-25">
-              <img class="h-100" src="./public/assets/icones/profile.png" alt="icone de profil" />
-            </a>
-          </div>
-          <div class="desktop-header-icons h-100 d-flex align-items-center">
-            <a href="" class="h-25">
-              <img class="h-100" src="./public/assets/icones/heart.png" alt="icone d'un coeur" />
-            </a>
-          </div>
-          <div class="position-relative desktop-header-icons h-100 d-flex align-items-center">
-            <a href=""
-              class="badge bg-dark text-black rounded-pill position-absolute top-25 start-50 translate-middle card-badge-desktop"><span>0</span>
-            </a>
-            <a href="" class="h-25"><img src="./public/assets/icones/shopping-cart.png"
-                alt="Icone représentant un charriot de course pour le panier" class="h-100" />
-            </a>
+        <div class="h-100 col-4 align-items-center justify-content-end d-flex">
+          <div class="col-6 d-flex h-100 align-items-center">
+            <div class="desktop-header-icons h-25 d-flex align-items-center justify-content-center col-3">
+              <a class="h-100" href="">
+                <img class="h-100" src="./public/assets/svg/Search.svg" alt="Icone représentant une loupe" />
+              </a>
+            </div>
+            <div class="desktop-header-icons h-25 d-flex justify-content-center align-items-center col-3">
+              <a href="" class="h-100">
+                <img class="h-100" src="./public/assets/svg/Profile.svg" alt="icone de profil" />
+              </a>
+            </div>
+            <div class="desktop-header-icons h-25 d-flex justify-content-center align-items-center col-3">
+              <a href="" class="h-100">
+                <img class="h-100 " src="./public/assets/icones/heart.png" alt="icone d'un coeur" />
+              </a>
+            </div>
+            <div
+              class="position-relative desktop-header-icons h-25 d-flex align-items-center col-3 justify-content-center">
+              <a href=""
+                class="badge bg-dark text-black rounded-pill position-absolute card-badge-desktop"><span>0</span>
+              </a>
+              <a href="" class="h-100"><img src="./public/assets/svg/shopping-cart.svg"
+                  alt="Icone représentant un charriot de course pour le panier" class="h-100" />
+              </a>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
     <!--  mobile version -->
 
     <div class="bg-light sticky-top d-flex d-xl-none mobile-header-top col-12">
-      <div class="d-flex container-fluid col-12 justify-content-between">
+      <div class="d-flex container-fluid col-12 justify-content-between mt-lg-5">
         <div class="d-flex align-items-center col-5 ps-5 ">
           <div class="mx-2">
             <img src="./public/assets/icones/Sublime in.png" alt="Texte 'sublime in' en italique pour le logo" />
@@ -100,162 +107,154 @@
           </div>
         </div>
 
-        <div class="d-flex align-items-center justify-content-between col-5 h-100 pe-5">
-          <a href="" class="h-75">
-            <img class="h-100" src="./public/assets/icones/profile.png" alt="Icone de profil" />
+        <div class="d-flex align-items-center justify-content-between col-5 h-100  ">
+          <a href="" class="col-3">
+            <img class="" src="./public/assets/icones/profile.png" alt="Icone de profil" />
           </a>
-          <a href="" class="position-relative h-75">
+          <a href="" class="position-relative col-3">
             <span class="badge bg-dark text-black rounded-pill position-absolute  card-badge-mobile">0</span><img
               src="./public/assets/icones/shopping-cart.png"
               alt="Icone représentant un charriot de course pour le panier" class="h-100" />
           </a>
-          <div class="mobile-icon-size h-50">
-            <img class="h-100" src="./public/assets/icones/menu.png" alt="Barres pour indiquer la navigation"
-              id="toggle-btn" />
+          <div id="navigation-hamburger" class="navbar-toggler col-3 p-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img class="navbar-toggler-icon " src="./public/assets/icones/menu.png"
+              alt="Barres pour indiquer la navigation" id="toggle-btn" />
           </div>
         </div>
       </div>
     </div>
-  </header>
 
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-xl navbar-light bg-light">
-    <div class="container-fluid">
-      <!--toggle-->
-      <button id="navigation-hamburger" class="navbar-toggler  mt-0 mt-sm-2" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--navbar-->
-      <div class="collapse navbar-collapse justify-content-evenly " id="navbarSupportedContent">
-        <ul class="navbar-nav mx-3 mx-xl-auto">
-          <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link active ps-2 ps-xl-auto " aria-current="page" href="#">Qui sommes nous ?</a>
-            <hr class=" separation-mobile-menu d-xl-none">
-          </li>
-          <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link dropdown-toggle ps-2 ps-xl-auto " href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Maquillage
-            </a>
-            <hr class=" separation-mobile-menu d-xl-none">
-            <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item  text-decoration-none" href="#">Teint</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Yeux</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Lèvres</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item " href="#">Accesoires</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link dropdown-toggle ps-2 ps-xl-auto" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Visage
-            </a>
-            <hr class=" separation-mobile-menu d-xl-none">
-            <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Nettoyant</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Hydratant</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-imperfection</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-âge</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Solaire</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link dropdown-toggle ps-2 ps-xl-auto" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Cheveux
-            </a>
-            <hr class=" separation-mobile-menu d-xl-none">
-            <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Shampoing</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Après shampoing</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Coloration végétale</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link dropdown-toggle ps-2 ps-xl-auto" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Homme
-            </a>
-            <hr class=" separation-mobile-menu d-xl-none">
-            <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Nettoyant</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Hydratant</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-imperfection</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-âge</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Solaire</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link dropdown-toggle ps-2 ps-xl-auto" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Coffret in bio
-            </a>
-            <hr class=" separation-mobile-menu d-xl-none">
 
-            <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Maquillage</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-imperfection</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-              <li><a class="dropdown-item" href="#">Anti-âge</a>
-                <hr class=" separation-mobile-menu d-xl-none">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link active ps-2 ps-xl-auto" aria-current="page" href="#">DIY</a>
-            <hr class=" separation-mobile-menu d-xl-none">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light homepage-navbar " id="homepageNavbar">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-evenly " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-3 mx-xl-auto">
+            <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link active ps-2 ps-xl-auto " aria-current="page" href="#">Qui sommes nous ?</a>
+              <hr class=" separation-mobile-menu d-xl-none">
+            </li>
+            <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link  ps-2 ps-xl-auto navbarDropdown" href="#" id="navbarDropdown" aria-expanded="false">
+                Maquillage
+              </a>
+              <hr class=" separation-mobile-menu d-xl-none">
+              <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item  text-decoration-none" href="#">Teint</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Yeux</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Lèvres</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item " href="#">Accesoires</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link  ps-2 ps-xl-auto navbarDropdown" href="#" id="navbarDropdown" aria-expanded="false">
+                Visage
+              </a>
+              <hr class=" separation-mobile-menu d-xl-none">
+              <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Nettoyant</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Hydratant</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-imperfection</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-âge</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Solaire</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link  ps-2 ps-xl-auto navbarDropdown" href="#" id="navbarDropdown" aria-expanded="false">
+                Cheveux
+              </a>
+              <hr class=" separation-mobile-menu d-xl-none">
+              <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Shampoing</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Après shampoing</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Coloration végétale</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link  ps-2 ps-xl-auto navbarDropdown" href="#" id="navbarDropdown" aria-expanded="false">
+                Homme
+              </a>
+              <hr class=" separation-mobile-menu d-xl-none">
+              <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Nettoyant</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Hydratant</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-imperfection</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-âge</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Solaire</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link  ps-2 ps-xl-auto navbarDropdown" href="#" id="navbarDropdown" aria-expanded="false">
+                Coffret in bio
+              </a>
+              <hr class=" separation-mobile-menu d-xl-none">
 
-          </li>
-          <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
-            <a class="nav-link active ps-2 ps-xl-auto" aria-current="page" href="#">Blog</a>
-            <hr class=" separation-mobile-menu d-xl-none">
-          </li>
-        </ul>
+              <ul class="dropdown-menu border-0 ms-4 ms-xl-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Maquillage</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-imperfection</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-âge</a>
+                  <hr class=" separation-mobile-menu d-xl-none">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link active ps-2 ps-xl-auto" aria-current="page" href="#">DIY</a>
+              <hr class=" separation-mobile-menu d-xl-none">
+
+            </li>
+            <li class="nav-item mx-2 pt-0 mx-xl-auto pt-xl-auto">
+              <a class="nav-link active ps-2 ps-xl-auto" aria-current="page" href="#">Blog</a>
+              <hr class=" separation-mobile-menu d-xl-none">
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <div class="w-100 ">
+      <hr class="container separation d-none d-xl-block col-8 mx-auto my-0">
     </div>
-  </nav>
-  <div class="w-100">
-    <hr class="container separation d-none d-xl-block col-8 mx-auto ">
   </div>
+
 
 
   <!--CAROUSEL-->
@@ -275,16 +274,13 @@
             <div class="carousel-description-content">
               <h2 class="fw-bolder ">All Natural</h2>
               <p class="fw-bold">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptate quia
-                exercitationem ratione,
-                dolorum explicabo consectetur provident minima neque nemo nisi odio tenetur dolor
-                tempore! Perferendis
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptate quia exercitationem ratione,
+                dolorum explicabo consectetur provident minima neque nemo nisi odio tenetur dolor tempore! Perferendis
                 placeat incidunt temporibus obcaecati?
               </p>
             </div>
             <div class="text-center mt-4">
-              <a href=""><button class="btn btn-outline-primary border-0 px-5 ">Voir le
-                  produit</button></a>
+              <a href=""><button class="btn btn-outline-primary border-0 px-5 ">Voir le produit</button></a>
             </div>
           </div>
           <div
@@ -308,10 +304,8 @@
             <div class="carousel-description-content">
               <h2 class="fw-bolder">All Natural</h2>
               <p class="fw-bold">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reiciendis adipisci
-                debitis molestiae
-                odit cum expedita fuga rerum veniam eos, architecto aperiam dicta saepe, deleniti
-                corporis deserunt
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reiciendis adipisci debitis molestiae
+                odit cum expedita fuga rerum veniam eos, architecto aperiam dicta saepe, deleniti corporis deserunt
                 tempora sed officiis.
               </p>
             </div>
@@ -341,10 +335,8 @@
             <div class="carousel-description-content">
               <h2 class="fw-bolder">All Natural</h2>
               <p class="fw-bold">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nisi magni eius
-                laudantium dolorum
-                incidunt exercitationem numquam nostrum minus maxime! Esse deleniti blanditiis quaerat
-                possimus in
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nisi magni eius laudantium dolorum
+                incidunt exercitationem numquam nostrum minus maxime! Esse deleniti blanditiis quaerat possimus in
                 voluptate nemo amet veniam?
               </p>
             </div>
@@ -366,33 +358,41 @@
     <div class="d-flex flex-lg-row-reverse flex-column justify-content-center ">
 
       <!--box image -->
-      <div class="box-img-container  container-fluid px-0  col-12 col-lg-6 ">
-        <div class="box-img-div px-0 h-100">
+      <div class="box-img-container  container-fluid px-0  col-12 col-lg-6 p-0 ">
+        <div class="box-img-div  h-100 p-0 m-0">
           <img class="h-100" src="./public/assets/images/woman.png" alt="">
         </div>
       </div>
 
       <!--Box description-->
-      <div class="container-fluid col-12 col-lg-6 my-0 my-lg-auto   box-description-container">
-        <div class=" d-flex  flex-column box-description-div h-100">
-          <div class="mx-lg-auto my-lg-5 col-lg-6  box-description-content  ">
-            <h2 class="mb-lg-5 col-6 col-lg-12 mx-auto text-center text-lg-start fw-bolder box-description-h2">
-              Une box à
-              mon image</h2>
-            <p class="mb-lg-5 col-10 col-lg-12 mx-auto fw-bold box-description-p">Lorem ipsum dolor sit
-              amet, consectetur
-              adipisicing elit.
-              Iure sunt voluptatem quidem alias
-              quaerat iste fugiat quae animi sit nesciunt!
-            </p>
+      <div class="container-fluid col-12 col-lg-6     box-description-container  ">
+        <div class=" d-flex  flex-column  p-0 h-100 ">
+          <div class="mx-lg-auto  col-lg-6  box-description-content h-100">
             <div
-              class="box-description-img col-11 col-lg-12 mx-auto rounded d-flex justify-content-center align-items-center ">
+              class="box-description-h2 col-6 col-lg-12 mx-auto  align-items-center d-flex justify-content-center justify-content-lg-start">
+              <h2 class=" fw-bolder p-0 m-0 ">Une box à
+                mon image</h2>
+            </div>
+            <div
+              class="col-10 col-lg-12 mx-auto box-description-p  align-items-center d-flex justify-content-center justify-content-lg-start">
+              <p class=" h-100 p-0 m-0 fw-bold ">Lorem ipsum dolor sit amet,
+                consectetur
+                adipisicing elit.
+                Iure sunt voluptatem quidem alias
+                quaerat iste fugiat quae animi sit nesciunt!
+              </p>
+
+            </div>
+            <div
+              class="box-description-img col-11 col-lg-12 mx-auto rounded d-flex justify-content-center align-items-center">
               <img class="rounded img-fluid" src="./public/assets/images/productBox.png" alt="" />
             </div>
-            <div class="text-center mt-lg-5 box-description-btn">
-              <a href=""><button class="btn btn-outline-primary border-dark border-2  px-5">Je
+            <div class="text-center  box-description-btn  align-items-center d-flex justify-content-center ">
+              <a href="">
+                <button class="btn btn-outline-primary border-dark border-2  px-5">Je
                   choisis ma
-                  box</button></a>
+                  box</button>
+              </a>
             </div>
           </div>
         </div>
@@ -402,7 +402,7 @@
 
   <!-- SECTION ATOUTS-->
   <section class="section-atouts">
-    <div class="container-fluid all-atouts-container py-5 ">
+    <div class="container-fluid all-atouts-container py-5">
       <div class="d-flex flex-column flex-lg-row justify-content-between text-center  col-lg-9 mx-lg-auto">
 
         <div class="col-12 col-lg-4 atout-container pb-5 pb-lg-0 ">
@@ -454,7 +454,7 @@
   <section class="products-section">
 
     <div class="container-fluid bg-light ">
-      <div class="container-fluid ">
+      <div class="container-fluid mb-5">
 
         <!--desktop-->
         <div class=" pt-5 pb-5 d-flex flex-column flex-md-row align-items-center col-12 col-md-9 m-auto ">
@@ -484,10 +484,33 @@
                 <img src="./public/assets/images/productBox.png" alt="" class="card-img-top">
               </div>
               <!--Product details-->
-              <div class="card-body px-0 ">
+              <div class="card-body px-0 col-12 ">
                 <p class="card-title fs-5">Card Title</p>
                 <p class="card-subtitle mb-3 fs-6">Card Subtitle</p>
-                <p class="card-text">€19.99</p>
+                <!--stars-->
+                <div class="d-flex flex-column flex-md-row mb-md-3">
+                  <div class="card-text col-md-4 col-xxl-3">
+                    <p class="mb-0">€19.99</p>
+                  </div>
+                  <div class="d-flex col-8 col-md-6 mb-md-0 mb-3 mt-md-0 mt-2 ">
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+
+                  </div>
+                </div>
                 <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
               </div>
             </div>
@@ -515,7 +538,30 @@
               <div class="card-body px-0 ">
                 <p class="card-title fs-5">Card Title</p>
                 <p class="card-subtitle mb-3 fs-6">Card Subtitle</p>
-                <p class="card-text">€19.99</p>
+                <!--stars-->
+                <div class="d-flex flex-column flex-md-row mb-md-3">
+                  <div class="card-text col-md-4 col-xxl-3">
+                    <p class="mb-0">€19.99</p>
+                  </div>
+                  <div class="d-flex col-8 col-md-6 mb-md-0 mb-3 mt-md-0 mt-2 ">
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+
+                  </div>
+                </div>
                 <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
               </div>
             </div>
@@ -543,8 +589,29 @@
               <div class="card-body px-0 ">
                 <p class="card-title fs-5">Card Title</p>
                 <p class="card-subtitle mb-3 fs-6">Card Subtitle</p>
-                <p class="card-text">€19.99</p>
-                <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
+                <!--stars-->
+                <div class="d-flex flex-column flex-md-row mb-md-3">
+                  <div class="card-text col-md-4 col-xxl-3">
+                    <p class="mb-0">€19.99</p>
+                  </div>
+                  <div class="d-flex col-8 col-md-6 mb-md-0 mb-3 mt-md-0 mt-2 ">
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                  </div>
+                </div> <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
               </div>
             </div>
           </div>
@@ -571,8 +638,30 @@
               <div class="card-body px-0 ">
                 <p class="card-title fs-5">Card Title</p>
                 <p class="card-subtitle mb-3 fs-6">Card Subtitle</p>
-                <p class="card-text">€19.99</p>
-                <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
+                <!--stars-->
+                <div class="d-flex flex-column flex-md-row mb-md-3">
+                  <div class="card-text col-md-4 col-xxl-3">
+                    <p class="mb-0">€19.99</p>
+                  </div>
+                  <div class="d-flex col-8 col-md-6 mb-md-0 mb-3 mt-md-0 mt-2 ">
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+                    <div class="col d-md-flex align-items-md-center justify-content-md-center">
+                      <img class="w-75 mx-md-0 my-md-0 mx-1 my-1" src="./public/assets/svg/Star-FULL.svg" alt="">
+                    </div>
+
+                  </div>
+                </div> <a href="" class="btn btn-outline-primary border-0 w-100 fw-bold">Ajouter au panier</a>
               </div>
             </div>
           </div>
@@ -664,9 +753,6 @@
       </div>
     </div>
 
-    <div class="w-100">
-      <hr class=" col-8 mx-auto">
-    </div>
 
     <div class="container-fluid footer-style col-xl-10 m-auto ">
       <div>
@@ -674,37 +760,52 @@
       </div>
     </div>
 
-    <div class="mt-5  col-xl-10 m-auto  footer-style d-flex  flex-column flex-xl-row ">
+    <div class="d-flex col-xl-10 m-auto pb-3 flex-column">
 
-      <div class="d-flex justify-content-center col-xl-7">
-        <div class="col-xl-4 col-6 ps-5 ps-xl-0">
-          <a class="text-decoration-underline" href="">Mentions légales</a>
+      <div
+        class="mt-xl-5 mt-4 col-10 col-xl-12  justify-content-between  m-auto  footer-style d-flex  flex-column flex-xl-row ">
+        <div class="d-flex justify-content-center col-12 col-xl-7">
+          <div class="col-xl-4 col-6  ps-xl-0 text-start ">
+            <a class="text-decoration-underline" href="">Mentions légales</a>
+          </div>
+          <div class="col-xl-4 col-3 text-center  ">
+            <a class="text-decoration-underline" href="">CGV</a>
+          </div>
+          <div class="col-xl-4 col-3 text-end text-xl-center   ">
+            <a class="text-decoration-underline" href="">CGU</a>
+          </div>
         </div>
-        <div class="col-xl-4 col-3 text-end text-xl-start pe-5 pe-xl-5">
-          <a class="text-decoration-underline" href="">CGV</a>
-        </div>
-        <div class="col-xl-4 col-3 text-end text-xl-start pe-5 pe-xl-5">
-          <a class="text-decoration-underline" href="">CGU</a>
+
+        <div class="d-flex justify-content-end  col-12 col-xl-5">
+          <div class="d-flex col-3 col-xl-4 justify-content-between  mt-4 mt-xl-0 mb-3 mb-xl-0">
+            <div class="col-4 px-0  text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
+                  src="./public/assets/icones/facebook.png" alt=""></a>
+            </div>
+            <div class="col-4 px-0 text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
+                  src="./public/assets/icones/instagram.png" alt=""></a>
+            </div>
+            <div class="col-4 px-0  text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
+                  src="./public/assets/icones/pinterest.png" alt=""></a>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="col-xl-5 d-flex flex-row justify-content-end mt-5 mt-xl-0 ">
-        <div class="row col-3 col-xl-3 justify-content-between mx-0 pe-5 pe-xl-0">
-          <div class="col-4 px-0  text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
-                src="./public/assets/icones/facebook.png" alt=""></a>
-          </div>
-          <div class="col-4 px-0 text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
-                src="./public/assets/icones/instagram.png" alt=""></a>
-          </div>
-          <div class="col-4 px-0  text-end text-xl-start icon-social-footer"><a href=""><img class="img-fluid"
-                src="./public/assets/icones/pinterest.png" alt=""></a>
-          </div>
+      <div class=" col-10 col-xl-12 mt-xl-4 d-flex justify-content-end m-auto ">
+        <div class="arrow-up-icon">
+          <a id="arrow-up" href="#">
+            <img src="./public/assets/icones/arrow-up-circle-fill.svg"
+              alt="icone représentant une flèche pour remonter en haut de la page">
+          </a>
         </div>
       </div>
-
     </div>
+
+
   </footer>
 
+  <script src="./public/assets/js/templates-js/homePage.js">
+
+  </script>
 </body>
 
 

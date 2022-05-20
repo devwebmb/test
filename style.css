@@ -1,14 +1,12 @@
-/* @import url("./_variables.css");
-@import url("./_home-page.css");
-@import url("./_products-list.css");
-@import url("./_popup-login.css"); */
+/*BANNER*/
 
-/*banner**********/
 .banner {
   font-family: "Publico";
 }
 
-/*****header top ****************/
+/*HEADER TOP */
+
+/* desktop version */
 .header-desktop {
   height: 160px;
 }
@@ -21,28 +19,41 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.card-badge-desktop {
+  top: 27%;
+
+  transform: translate(20%, -50%);
+}
+/*mobile version */
 .mobile-header-top {
   height: 100px;
 }
 
-/***navbar***********/
-.navbar {
-  color: black !important;
+/******** NAVIGATION MENU *********/
+.homepage-navbar {
+  color: var(--black) !important;
   font-family: "Publico";
   font-size: 20px;
 }
-.nav-item {
+
+.homepage-navbar .nav-item {
   padding: 0.5rem;
 }
-.nav-link {
-  color: black !important;
-  opacity: inherit !important;
+@media screen and (min-width: 1200px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
-.nav-link:hover,
-.dropdown-item:hover {
-  color: var(--primary);
+.homepage-navbar .nav-link {
+  color: var(--black);
 }
-.dropdown-item:hover {
+
+.homepage-navbar a:hover {
+  color: var(--primary) !important;
+}
+
+.homepage-navbar .dropdown-item:hover {
   background: none;
 }
 .separation {
@@ -52,8 +63,13 @@
   color: var(--black);
   opacity: 0.6;
 }
+#toggle-btn {
+  width: 80%;
+  height: auto;
+  padding-bottom: 10px;
+}
+/* CAROUSEL */
 
-/**carousel***********/
 #homepage-carousel {
   font-family: "Architects Daughter";
 }
@@ -78,10 +94,10 @@ button.button-carousel {
   background: var(--primary);
 }
 .box-img-container {
-  height: 600px;
+  height: 700px;
 }
 .box-description-container {
-  height: 600px;
+  height: 700px;
 }
 .box-img-div img {
   height: 100%;
@@ -91,42 +107,40 @@ button.button-carousel {
 .box-description-img {
   background: var(--light);
 }
+.box-description-h2 {
+  height: 20%;
+  /* margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.box-description-btn {
+  height: 20%;
+  /* margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
 
+.box-description-p {
+  height: 20%;
+  /* margin-bottom: 0;
+    padding: auto auto; */
+}
+.box-description-img {
+  height: 40%;
+}
 @media screen and (max-width: 992px) {
   .box-img-container,
   .box-description-container {
     height: 800px;
   }
-  .box-description-content {
-    height: 800px;
-  }
-  .box-description-h2 {
-    height: 20%;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box-description-btn {
-    height: 20%;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box-description-p {
-    height: 20%;
-    margin-bottom: 0;
-    padding: auto auto;
-  }
-  .box-description-img {
-    height: 40%;
-  }
 }
 
-/***********section atouts****************/
+/******** SECTION ATOUTS *********/
 .section-atouts {
   background-color: var(--blue);
+  /* height: auto; */
   font-family: "Publico-regular";
 }
 @media screen and (max-width: 992px) {
@@ -135,7 +149,7 @@ button.button-carousel {
   }
 }
 
-/*******products section**********/
+/************SECTION PRODUCTS**************/
 .products-section {
   font-family: "Montserrat";
 }
@@ -152,23 +166,41 @@ button.button-carousel {
   opacity: 1;
 }
 
-/*************section social***************/
+@media screen and (max-width: 992px) {
+  .heart-icon {
+    width: 16%;
+  }
+  .all-atouts-container {
+    padding: 0;
+  }
+}
+
+/**********SOCIAL NETWORK*********/
+
 .section-socialNetwork {
   font-family: "Publico";
   background: var(--blue);
 }
 
+/*****FOOTER**********/
+
 .footer-style {
   font-family: "Montserrat";
 }
 
-/*************footer************/
 .footer-form {
   max-width: 360px;
 }
-.icon-social-footer {
+.icon-social-footer,
+.arrow-up-icon {
   height: 24px;
   width: 24px;
+}
+
+.arrow-up-icon img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /*******popup login************/
@@ -346,4 +378,3 @@ h3 {
 .mon-compte .boutique-btn {
   font-family: "Montserrat";
 }
-
