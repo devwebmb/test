@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183" height="183" viewBox="0 0 183 183">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e3c78f;
+      }
+
+      .cls-2 {
+        filter: url(#Profile);
+      }
+    </style>
+    <filter id="Profile" x="0" y="0" width="183" height="183" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Profile-2" data-name="Profile" transform="translate(7 6)">
+    <g class="cls-2" transform="matrix(1, 0, 0, 1, -7, -6)">
+      <path id="Profile-3" data-name="Profile" class="cls-1" d="M0,165V144.377c0-22.692,37.125-41.255,82.5-41.255S165,121.685,165,144.377V165ZM41.245,41.255A41.25,41.25,0,1,1,82.5,82.5,41.254,41.254,0,0,1,41.245,41.255Z" transform="translate(7 6)"/>
+    </g>
+  </g>
+</svg>

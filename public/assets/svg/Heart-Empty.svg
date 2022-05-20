@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.18" height="110.789" viewBox="0 0 125.18 110.789">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Heart" class="cls-1" d="M114.278,9.952a33.365,33.365,0,0,0-47.492,0l-4.671,4.671L57.444,9.952A33.582,33.582,0,0,0,9.952,57.444l52.163,52.163L93.143,78.579l21.136-21.136a33.365,33.365,0,0,0,0-47.492" transform="translate(0.475 0.475)"/>
+</svg>

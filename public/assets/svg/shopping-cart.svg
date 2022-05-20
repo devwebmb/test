@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.76" height="123.242" viewBox="0 0 116.76 123.242">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #e3c78f;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        filter: url(#Tracé_1155);
+      }
+
+      .cls-4 {
+        filter: url(#Tracé_1154);
+      }
+
+      .cls-5 {
+        filter: url(#Tracé_1153);
+      }
+    </style>
+    <filter id="Tracé_1153" x="0" y="0" width="116.76" height="110.242" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_1154" x="34.531" y="93.242" width="30" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_1155" x="69.675" y="93.242" width="30" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3306" data-name="Groupe 3306" transform="translate(7 6)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -7, -6)">
+      <path id="Tracé_1153-2" data-name="Tracé 1153" class="cls-1" d="M22.979,2H1V14.3H15.763l12.7,77.96h.059v1.983h59.63V92.716l10.06-59.41L99.76,26.6H26.94L24.324,10.539ZM88.091,38.9H28.943l7.013,43.046H80.8Z" transform="translate(6 4)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -7, -6)">
+      <path id="Tracé_1154-2" data-name="Tracé 1154" class="cls-2" d="M14,30a6,6,0,1,0-6-6A6,6,0,0,0,14,30Z" transform="translate(33.53 81.24)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7, -6)">
+      <path id="Tracé_1155-2" data-name="Tracé 1155" class="cls-2" d="M27,24a6,6,0,1,1-6-6A6,6,0,0,1,27,24Z" transform="translate(61.68 81.24)"/>
+    </g>
+  </g>
+</svg>

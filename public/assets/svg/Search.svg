@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="147.166" height="147.166" viewBox="0 0 147.166 147.166">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #e3c78f;
+      }
+
+      .cls-3 {
+        filter: url(#Tracé_208);
+      }
+    </style>
+    <filter id="Tracé_208" x="0" y="0" width="147.166" height="147.166" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Search" transform="translate(7 6)">
+    <rect id="Rectangle_693" data-name="Rectangle 693" class="cls-1" width="129.266" height="129.266" rx="19"/>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7, -6)">
+      <path id="Tracé_208-2" data-name="Tracé 208" class="cls-2" d="M129.166,117.792,102.358,90.985a55.62,55.62,0,0,0,11.373-34.119A56.515,56.515,0,0,0,56.865,0,56.515,56.515,0,0,0,0,56.865a56.515,56.515,0,0,0,56.865,56.865,55.62,55.62,0,0,0,34.119-11.373l26.808,26.808ZM16.247,56.865A40.224,40.224,0,0,1,56.865,16.247,40.224,40.224,0,0,1,97.483,56.865,40.224,40.224,0,0,1,56.865,97.483,40.224,40.224,0,0,1,16.247,56.865Z" transform="translate(7 6)"/>
+    </g>
+  </g>
+</svg>
