@@ -378,3 +378,12 @@ h3 {
 .mon-compte .boutique-btn {
   font-family: "Montserrat";
 }
+
+/*********style hover mobile***************/
+
+@media screen and (max-width : 1200px) {
+  .nav-link:active, .dropdown-item:active {
+    border: none;
+    background-color: var(--light);
+  }
+}
