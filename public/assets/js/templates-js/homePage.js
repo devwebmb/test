@@ -17,11 +17,11 @@ const start = () => {
       navbarOnclickAttributes[i].setAttribute("data-bs-toggle", "");
     }
   }
-  if (windowWidth > 1400) {
-    xlStickyTop.classList.add("sticky-top");
-  } else if (windowWidth <= 1400) {
-    xlStickyTop.classList.remove("sticky-top");
-  }
+  // if (windowWidth > 10) {
+  //   xlStickyTop.classList.add("sticky-top");
+  // } else if (windowWidth <= 1400) {
+  //   xlStickyTop.classList.remove("sticky-top");
+  // }
 };
 start();
 window.onresize = start;
