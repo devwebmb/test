@@ -383,7 +383,7 @@ h3 {
 
 @media screen and (max-width : 1200px) {
   .nav-link:active, .dropdown-item:active {
-    border:solid 25px black;
+    border:0 px;
     background-color: var(--light);
   }
 }
