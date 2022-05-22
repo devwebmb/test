@@ -157,6 +157,7 @@ button.button-carousel {
 .heart-icon {
   width: 10%;
   right: 0;
+  transform: translateY(-100%);
 }
 .heart-icon-full {
   opacity: 0;
@@ -381,10 +382,18 @@ h3 {
 
 /*********style hover mobile***************/
 
-@media screen and (max-width : 1200px) {
-  .nav-link:active, .dropdown-item:active {
-    border:0 px;
+@media screen and (max-width: 1200px) {
+  .nav-link:active,
+  .dropdown-item:active {
+    border: 0 px;
     background-color: var(--light);
   }
 }
 
+/*****heart-icon en dehors du lien de card*/
+
+@media screen and (max-width: 1200px) {
+  .yo {
+    margin-bottom: 5%;
+  }
+}
