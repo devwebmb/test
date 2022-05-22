@@ -400,7 +400,7 @@ h3 {
 
 /*********Panier*************/
 
-.panier .modal-dialog .modal-content {
+.modal .modal-dialog .modal-content {
   background: var(--blue);
   font-family: "Publico-regular";
 }
