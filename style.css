@@ -397,3 +397,11 @@ h3 {
     margin-bottom: 5%;
   }
 }
+
+/*********Panier*************/
+
+.panier .container-fluid {
+  background: var(--blue);
+  font-family: "Publico-regular";
+}
+
