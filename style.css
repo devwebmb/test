@@ -390,17 +390,9 @@ h3 {
   }
 }
 
-/*****heart-icon en dehors du lien de card*/
-
-@media screen and (max-width: 1200px) {
-  .yo {
-    margin-bottom: 5%;
-  }
-}
-
 /*********Panier*************/
 
-.modal .modal-dialog .modal-content {
+#cardModalStyle {
   background: var(--blue);
   font-family: "Publico-regular";
 }
