@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="./public/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+    <script src="./public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--modal panier-->
+    <div class="panier">
+        <div class="container-fluid col-4 pb-4 ">
+
+            <!--Entete-->
+            <div class="d-flex col-10 align-items-center mx-auto py-3 position-relative">
+                <!--close cross-->
+                <div class="position-absolute end-0 translate-middle " style="width: 16px;">
+                    <img src="./public/assets/icones/x-solid.svg" alt="">
+
+                </div>
+                <div class="col-5 fs-4 fw-bold">
+                    <p class="my-0">Mon panier</p>
+                </div>
+                <div class="col-3  align-middle">
+                    <p class="my-0"><span>3</span> articles</p>
+                </div>
+                <div class="col-3 ">
+                    <a href="">
+                        <p class="my-0">Mon panier</p>
+                    </a>
+                </div>
+            </div>
+
+            <!--Cards-->
+            <div class="card-group col-10 mx-auto ">
+                <!--card-->
+                <div class="card col-12 mb-4 ">
+                    <div class="row ">
+                        <!--image-->
+                        <div class="col-4  my-auto">
+                            <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
+                        </div>
+                        <!--text-content-->
+                        <div class="col-8 card-body px-3 border-start">
+                            <div class="card-text fw-bold">
+                                <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
+                            </div>
+                            <div class="card-text">
+                                <p><span>Description de l'article</span></p>
+                            </div>
+                            <div class="position-relative col-11">
+                                <div class="col-3 ">
+                                    <form action="">
+                                        <input type="number" class="form-control rounded-pill " placeholder="1">
+                                    </form>
+                                </div>
+                                <div>
+                                    <img src="./public/assets/icones/x-lg.svg" alt=""
+                                        class="position-absolute start-100 top-50 translate-middle">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Infomations prix et livraison-->
+            <div class="col-10 mx-auto">
+                <div class="col-12 row mx-0">
+                    <div class="col-9 fw-bold px-0">
+                        <p>Sous total</p>
+                    </div>
+                    <div class="col-3 text-end fw-bold px-0">
+                        <span>150 €</span>
+                    </div>
+                </div>
+                <div class="col-12 row mx-0">
+                    <div class="col-9  px-0">
+                        <p class="fw-bold">Taxe <span class="fw-normal">(20%)</span> </p>
+                    </div>
+                    <div class="col-3 text-end px-0 fw-bold">
+                        <span>30 €</span>
+                    </div>
+                </div>
+                <div class="col-12 row mx-0">
+                    <div class="col-9 fw-bold px-0">
+                        <p class="fw-bold">Livraison <span class="fw-normal">(gratuit à partir de 40€)</span> </p>
+                    </div>
+                    <div class="col-3 text-end px-0 fw-bold">
+                        <span>0 €</span>
+                    </div>
+                </div>
+                <div class="col-12 row mx-0 fw-bold">
+                    <div class="col-9 fw-bold px-0">
+                        <p class="mb-0">Code Promo</p>
+                    </div>
+                    <div class="col-3 text-end px-0 fw-bold ">
+                        <p class="mb-0"><span>-</span></p>
+                    </div>
+                </div>
+                <!--trait séparation-->
+                <div>
+                    <hr size="3">
+                </div>
+                <!--Prix total-->
+                <div class="col-12 row mx-0 fw-bold">
+                    <div class="col-9 fw-bold fs-5 px-0">
+                        <p>Total</p>
+                    </div>
+                    <div class="col-3 text-end px-0 fw-bold">
+                        <span>150 €</span>
+                    </div>
+                </div>
+            </div>
+            <!--boutons valider et voir mon panier-->
+            <div class="col-12 row mx-auto">
+                <div class="col-6">
+                    <button class="btn btn-outline-primary border-0 w-100 fw-bold">Valider mon panier</button>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-outline-primary border-0 w-100 fw-bold">Voir mon panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
