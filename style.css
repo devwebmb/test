@@ -390,4 +390,9 @@ h3 {
   }
 }
 
+/*************modal***************/
+
+.modal-dialog {
+  margin-right: 12px;
+}
 
