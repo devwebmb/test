@@ -840,350 +840,183 @@
 
 
   <!--modal panier-->
-  <div class="panier modal fade " id="exampleModal" tabindex="-1">
-    <div class="  modal-dialog modal-sm " style="margin-top: 180px;margin-right:40px">
-      <div class="modal-content pb-4" style="background: var(--blue);font-family: 'Publico';font-size: 0.75rem;">
-        <!--Entete-->
-        <div class="d-flex col-10  align-items-center mx-auto py-3  modal-header">
-          <div class="col-4 fs-6 fw-bold">
-            <p class="my-0">Mon panier</p>
+  <div class="panier fade modal " id="exampleModal" tabindex="-1">
+    <div class="col-10 mx-auto">
+      <div class="  modal-dialog modal-sm me-0  " style="margin-top: 140px; ">
+        <div class="modal-content pb-4" style="background: var(--blue);font-family: 'Publico';font-size: 0.75rem;">
+          <!--Entete-->
+          <div class="d-flex col-10  align-items-center mx-auto py-3  modal-header">
+            <div class="col-5 fs-6 fw-bold">
+              <p class="my-0">Mon panier</p>
+            </div>
+            <div class="col-3  align-middle">
+              <p style="font-family: 'Publico-regular';" class="my-0"><span>3</span> articles</p>
+            </div>
+            <div class="col-3 " style="font-family: 'Publico-regular';">
+              <a href="">
+                <p class="my-0">Modifier</p>
+              </a>
+            </div>
+            <!--close cross-->
+            <div class="" style="width: 16px;">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
           </div>
-          <div class="col-3  align-middle">
-            <p style="font-family: 'Publico-regular';" class="my-0"><span>3</span> articles</p>
-          </div>
-          <div class="col-3 " style="font-family: 'Publico-regular';">
-            <a href="">
-              <p class="my-0">Modifier</p>
-            </a>
-          </div>
-          <!--close cross-->
-          <div class="" style="width: 16px;">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-        </div>
 
-        <!--Cards-->
-        <div class="card-group col-10 mx-auto flex-column">
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
+          <!--Cards-->
+          <div class="card-group col-10 mx-auto flex-column">
+            <!--card-->
+            <div class="card col-12 mb-4 ">
+              <div class="row ">
+                <!--image-->
+                <div class="col-4  my-auto">
+                  <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
                 </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
+                <!--text-content-->
+                <div class="col-8 card-body px-3 border-start">
+                  <div class="card-text fw-bold">
+                    <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
                   </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
+                  <div class="card-text">
+                    <p><span>Description de l'article</span></p>
+                  </div>
+                  <div class="position-relative col-11">
+                    <div class="col-5 ">
+                      <form action="">
+                        <input type="number" class="form-control rounded-pill " placeholder="1"
+                          style="font-size: 0.75rem;">
+                      </form>
+                    </div>
+                    <div>
+                      <img src="./public/assets/icones/x-lg.svg" alt=""
+                        class="position-absolute start-100 top-50 translate-middle">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card-->
+            <div class="card col-12 mb-4 ">
+              <div class="row ">
+                <!--image-->
+                <div class="col-4  my-auto">
+                  <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
+                </div>
+                <!--text-content-->
+                <div class="col-8 card-body px-3 border-start">
+                  <div class="card-text fw-bold">
+                    <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
+                  </div>
+                  <div class="card-text">
+                    <p><span>Description de l'article</span></p>
+                  </div>
+                  <div class="position-relative col-11">
+                    <div class="col-5 ">
+                      <form action="">
+                        <input type="number" class="form-control rounded-pill " placeholder="1"
+                          style="font-size: 0.75rem;">
+                      </form>
+                    </div>
+                    <div>
+                      <img src="./public/assets/icones/x-lg.svg" alt=""
+                        class="position-absolute start-100 top-50 translate-middle">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card-->
+            <div class="card col-12 mb-4 ">
+              <div class="row ">
+                <!--image-->
+                <div class="col-4  my-auto">
+                  <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
+                </div>
+                <!--text-content-->
+                <div class="col-8 card-body px-3 border-start">
+                  <div class="card-text fw-bold">
+                    <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
+                  </div>
+                  <div class="card-text">
+                    <p><span>Description de l'article</span></p>
+                  </div>
+                  <div class="position-relative col-11">
+                    <div class="col-5 ">
+                      <form action="">
+                        <input type="number" class="form-control rounded-pill " placeholder="1"
+                          style="font-size: 0.75rem;">
+                      </form>
+                    </div>
+                    <div>
+                      <img src="./public/assets/icones/x-lg.svg" alt=""
+                        class="position-absolute start-100 top-50 translate-middle">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;"> 
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--card-->
-          <div class="card col-12 mb-4 ">
-            <div class="row ">
-              <!--image-->
-              <div class="col-4  my-auto">
-                <img src="./public/assets/images/ezcema.png" alt="Photo du produit" class="img-fluid">
-              </div>
-              <!--text-content-->
-              <div class="col-8 card-body px-3 border-start">
-                <div class="card-text fw-bold">
-                  <p class="mb-0"><span>1</span>x <span>nom de l'article</span></p>
-                </div>
-                <div class="card-text">
-                  <p><span>Description de l'article</span></p>
-                </div>
-                <div class="position-relative col-11">
-                  <div class="col-5 ">
-                    <form action="">
-                      <input type="number" class="form-control rounded-pill " placeholder="1" style="font-size: 0.75rem;">
-                    </form>
-                  </div>
-                  <div>
-                    <img src="./public/assets/icones/x-lg.svg" alt=""
-                      class="position-absolute start-100 top-50 translate-middle">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Infomations prix et livraison-->
-        <div class="col-10 mx-auto">
-          <div class="col-12 row mx-0">
-            <div class="col-9 fw-bold px-0">
-              <p>Sous total</p>
+          <!--Infomations prix et livraison-->
+          <div class="col-10 mx-auto">
+            <div class="col-12 row mx-0">
+              <div class="col-9 fw-bold px-0">
+                <p>Sous total</p>
+              </div>
+              <div class="col-3 text-end fw-bold px-0">
+                <span>150 €</span>
+              </div>
             </div>
-            <div class="col-3 text-end fw-bold px-0">
-              <span>150 €</span>
+            <div class="col-12 row mx-0">
+              <div class="col-9  px-0">
+                <p class="fw-bold">Taxe <span style="font-family: 'Publico-regular';" class="fw-normal">(20%)</span>
+                </p>
+              </div>
+              <div class="col-3 text-end px-0 fw-bold">
+                <span>30 €</span>
+              </div>
+            </div>
+            <div class="col-12 row mx-0">
+              <div class="col-9 fw-bold px-0">
+                <p class="fw-bold">Livraison <span style="font-family: 'Publico-regular';" class="fw-normal">(gratuit à
+                    partir de 40€)</span> </p>
+              </div>
+              <div class="col-3 text-end px-0 fw-bold">
+                <span>0 €</span>
+              </div>
+            </div>
+            <div class="col-12 row mx-0 fw-bold">
+              <div class="col-9 fw-bold px-0">
+                <p class="mb-0">Code Promo</p>
+              </div>
+              <div class="col-3 text-end px-0 fw-bold ">
+                <p class="mb-0"><span>-</span></p>
+              </div>
+            </div>
+            <!--trait séparation-->
+            <div>
+              <hr size="3">
+            </div>
+            <!--Prix total-->
+            <div class="col-12 row mx-0 fw-bold">
+              <div class="col-9 fw-bold fs-5 px-0">
+                <p>Total</p>
+              </div>
+              <div class="col-3 text-end px-0 fw-bold">
+                <span>150 €</span>
+              </div>
             </div>
           </div>
-          <div class="col-12 row mx-0">
-            <div class="col-9  px-0">
-              <p class="fw-bold">Taxe <span style="font-family: 'Publico-regular';" class="fw-normal">(20%)</span> </p>
+          <!--boutons valider et voir mon panier-->
+          <div class="col-12 row mx-auto">
+            <div class="col-12 mx-auto">
+              <button class="btn btn-outline-primary border-0 w-100 fw-bold">Voir mon panier</button>
             </div>
-            <div class="col-3 text-end px-0 fw-bold">
-              <span>30 €</span>
-            </div>
-          </div>
-          <div class="col-12 row mx-0">
-            <div class="col-9 fw-bold px-0">
-              <p class="fw-bold">Livraison <span style="font-family: 'Publico-regular';" class="fw-normal">(gratuit à
-                  partir de 40€)</span> </p>
-            </div>
-            <div class="col-3 text-end px-0 fw-bold">
-              <span>0 €</span>
-            </div>
-          </div>
-          <div class="col-12 row mx-0 fw-bold">
-            <div class="col-9 fw-bold px-0">
-              <p class="mb-0">Code Promo</p>
-            </div>
-            <div class="col-3 text-end px-0 fw-bold ">
-              <p class="mb-0"><span>-</span></p>
-            </div>
-          </div>
-          <!--trait séparation-->
-          <div>
-            <hr size="3">
-          </div>
-          <!--Prix total-->
-          <div class="col-12 row mx-0 fw-bold">
-            <div class="col-9 fw-bold fs-5 px-0">
-              <p>Total</p>
-            </div>
-            <div class="col-3 text-end px-0 fw-bold">
-              <span>150 €</span>
-            </div>
-          </div>
-        </div>
-        <!--boutons valider et voir mon panier-->
-        <div class="col-12 row mx-auto">
-          <div class="col-12 mx-auto">
-            <button class="btn btn-outline-primary border-0 w-100 fw-bold">Voir mon panier</button>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 
   <script src="./public/assets/js/templates-js/homePage.js">
